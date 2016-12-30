@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    char str1[25],str2[25];
+    printf("\nEnter a String");
+    scanf("\n%s",&str1);
+    strcpy(str2,str1);
+    strrev(str2);
+    if(strcmp(str1,str2)==0)
+    {
+        printf("\nThe given string is a Palindrome");
+    }
+    else
+    {
+        printf("\nThe given string is not a Palindrome");
+    }
+    return 0;
+}
