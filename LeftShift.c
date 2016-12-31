@@ -6,7 +6,7 @@ void main()
   long int n,r,s;
   clrscr();
   printf("\nEnter the Number:");
-  scanf("%d",&n);
+  scanf("%ld",&n);
   printf("\nEnter the no. of times to be Left Shifted:");
   scanf("%d",&t);
   for(i=0;i<t;i++)
@@ -16,6 +16,6 @@ void main()
     s=(r*10)+n;
     n=s;
   }
-  printf("\nThe Left Shifted Number is %d",s);
+  printf("\nThe Left Shifted Number is %ld",s);
   getch();
 }
