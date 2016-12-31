@@ -13,7 +13,7 @@ void main()
     n=n/10;
     x+=1;
   }
-  printf("\nThe number of digits found is/are &d",x);
+  printf("\nThe number of digits found is/are %d",x);
   printf("\nThe sum of the digits are %d",s);
   getch();
 }
